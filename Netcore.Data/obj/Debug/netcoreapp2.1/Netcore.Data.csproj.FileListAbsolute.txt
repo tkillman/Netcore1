@@ -1,0 +1,9 @@
+C:\Users\HP\source\repos\Netcore1\Netcore.Data\bin\Debug\netcoreapp2.1\Netcore.Data.deps.json
+C:\Users\HP\source\repos\Netcore1\Netcore.Data\bin\Debug\netcoreapp2.1\Netcore.Data.dll
+C:\Users\HP\source\repos\Netcore1\Netcore.Data\bin\Debug\netcoreapp2.1\Netcore.Data.pdb
+C:\Users\HP\source\repos\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.AssemblyInfo.cs
+C:\Users\HP\source\repos\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.dll
+C:\Users\HP\source\repos\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.pdb

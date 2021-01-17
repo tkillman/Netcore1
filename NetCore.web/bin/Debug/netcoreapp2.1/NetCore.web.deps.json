@@ -28,6 +28,7 @@
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.9",
+          "Netcore.Migrations": "1.0.0",
           "Netcore.services": "1.0.0"
         },
         "runtime": {
@@ -523,8 +524,22 @@
           "Netcore.Data.dll": {}
         }
       },
+      "Netcore.Migrations/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
+          "Netcore.services": "1.0.0"
+        },
+        "runtime": {
+          "Netcore.Migrations.dll": {}
+        },
+        "compile": {
+          "Netcore.Migrations.dll": {}
+        }
+      },
       "Netcore.services/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Netcore.Data": "1.0.0"
         },
         "runtime": {
@@ -3665,6 +3680,11 @@
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
     },
     "Netcore.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Netcore.Migrations/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

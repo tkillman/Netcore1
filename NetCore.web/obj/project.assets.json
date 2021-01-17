@@ -4626,10 +4626,26 @@
           "bin/placeholder/Netcore.Data.dll": {}
         }
       },
+      "Netcore.Migrations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
+          "Netcore.services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Netcore.Migrations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Netcore.Migrations.dll": {}
+        }
+      },
       "Netcore.services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
           "Netcore.Data": "1.0.0"
         },
         "compile": {
@@ -12573,6 +12589,11 @@
       "path": "../Netcore.Data/Netcore.Data.csproj",
       "msbuildProject": "../Netcore.Data/Netcore.Data.csproj"
     },
+    "Netcore.Migrations/1.0.0": {
+      "type": "project",
+      "path": "../Netcore.Migrations/Netcore.Migrations.csproj",
+      "msbuildProject": "../Netcore.Migrations/Netcore.Migrations.csproj"
+    },
     "Netcore.services/1.0.0": {
       "type": "project",
       "path": "../Netcore.services/Netcore.services.csproj",
@@ -12585,27 +12606,28 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
+      "Netcore.Migrations >= 1.0.0",
       "Netcore.services >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Users\\82108\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Netcore1\\NetCore.web\\NetCore.web.csproj",
+      "projectUniqueName": "D:\\Netcore1\\NetCore.web\\NetCore.web.csproj",
       "projectName": "NetCore.web",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\Netcore1\\NetCore.web\\NetCore.web.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\Netcore1\\NetCore.web\\obj\\",
+      "projectPath": "D:\\Netcore1\\NetCore.web\\NetCore.web.csproj",
+      "packagesPath": "C:\\Users\\82108\\.nuget\\packages\\",
+      "outputPath": "D:\\Netcore1\\NetCore.web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\82108\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12618,8 +12640,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\HP\\source\\repos\\Netcore1\\Netcore.services\\Netcore.services.csproj": {
-              "projectPath": "C:\\Users\\HP\\source\\repos\\Netcore1\\Netcore.services\\Netcore.services.csproj"
+            "D:\\Netcore1\\Netcore.Migrations\\Netcore.Migrations.csproj": {
+              "projectPath": "D:\\Netcore1\\Netcore.Migrations\\Netcore.Migrations.csproj"
+            },
+            "D:\\Netcore1\\Netcore.services\\Netcore.services.csproj": {
+              "projectPath": "D:\\Netcore1\\Netcore.services\\Netcore.services.csproj"
             }
           }
         }

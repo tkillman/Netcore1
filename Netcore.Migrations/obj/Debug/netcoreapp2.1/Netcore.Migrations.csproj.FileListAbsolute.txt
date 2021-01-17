@@ -1,0 +1,14 @@
+D:\Netcore1\Netcore.Migrations\bin\Debug\netcoreapp2.1\Netcore.Migrations.deps.json
+D:\Netcore1\Netcore.Migrations\bin\Debug\netcoreapp2.1\Netcore.Migrations.dll
+D:\Netcore1\Netcore.Migrations\obj\Debug\netcoreapp2.1\Netcore.Migrations.csproj.CoreCompileInputs.cache
+D:\Netcore1\Netcore.Migrations\obj\Debug\netcoreapp2.1\Netcore.Migrations.AssemblyInfoInputs.cache
+D:\Netcore1\Netcore.Migrations\obj\Debug\netcoreapp2.1\Netcore.Migrations.AssemblyInfo.cs
+D:\Netcore1\Netcore.Migrations\bin\Debug\netcoreapp2.1\Netcore.Migrations.pdb
+D:\Netcore1\Netcore.Migrations\bin\Debug\netcoreapp2.1\Netcore.Data.dll
+D:\Netcore1\Netcore.Migrations\bin\Debug\netcoreapp2.1\Netcore.services.dll
+D:\Netcore1\Netcore.Migrations\bin\Debug\netcoreapp2.1\Netcore.services.pdb
+D:\Netcore1\Netcore.Migrations\bin\Debug\netcoreapp2.1\Netcore.Data.pdb
+D:\Netcore1\Netcore.Migrations\obj\Debug\netcoreapp2.1\Netcore.Migrations.csprojAssemblyReference.cache
+D:\Netcore1\Netcore.Migrations\obj\Debug\netcoreapp2.1\Netcore.Migrations.csproj.CopyComplete
+D:\Netcore1\Netcore.Migrations\obj\Debug\netcoreapp2.1\Netcore.Migrations.dll
+D:\Netcore1\Netcore.Migrations\obj\Debug\netcoreapp2.1\Netcore.Migrations.pdb

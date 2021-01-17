@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Netcore.services.interfaces;
+using Netcore.services.interfaces.Data;
 using Netcore.services.Svcs;
 
 namespace NetCore.web
@@ -32,6 +34,11 @@ namespace NetCore.web
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+
+            //DB 접속정보, Migrations 프로젝트를 지정
+            services.AddDbContext<CodeFirstDbContext>(options => options.UseSqlServer(connectionString: Configuration.GetConnectionString(name: "DefaultConnection"),
+                    sqlServerOptionsAction: mig => mig.MigrationsAssembly(assemblyName: "Netcore.Migrations")));
+
 
             services.AddScoped<IUser, UserService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);

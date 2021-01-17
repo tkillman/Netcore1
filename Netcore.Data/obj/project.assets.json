@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Users\\82108\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Netcore1\\Netcore.Data\\Netcore.Data.csproj",
+      "projectUniqueName": "D:\\Netcore1\\Netcore.Data\\Netcore.Data.csproj",
       "projectName": "Netcore.Data",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\Netcore1\\Netcore.Data\\Netcore.Data.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\Netcore1\\Netcore.Data\\obj\\",
+      "projectPath": "D:\\Netcore1\\Netcore.Data\\Netcore.Data.csproj",
+      "packagesPath": "C:\\Users\\82108\\.nuget\\packages\\",
+      "outputPath": "D:\\Netcore1\\Netcore.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\82108\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

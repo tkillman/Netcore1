@@ -10,3 +10,15 @@ C:\Users\HP\source\repos\Netcore1\Netcore.services\bin\Debug\netcoreapp2.1\Netco
 C:\Users\HP\source\repos\Netcore1\Netcore.services\obj\Debug\netcoreapp2.1\Netcore.services.csproj.CopyComplete
 C:\Users\HP\source\repos\Netcore1\Netcore.services\obj\Debug\netcoreapp2.1\Netcore.services.dll
 C:\Users\HP\source\repos\Netcore1\Netcore.services\obj\Debug\netcoreapp2.1\Netcore.services.pdb
+D:\Netcore1\Netcore.services\bin\Debug\netcoreapp2.1\Netcore.services.deps.json
+D:\Netcore1\Netcore.services\bin\Debug\netcoreapp2.1\Netcore.services.dll
+D:\Netcore1\Netcore.services\bin\Debug\netcoreapp2.1\Netcore.services.pdb
+D:\Netcore1\Netcore.services\bin\Debug\netcoreapp2.1\Netcore.Data.dll
+D:\Netcore1\Netcore.services\bin\Debug\netcoreapp2.1\Netcore.Data.pdb
+D:\Netcore1\Netcore.services\obj\Debug\netcoreapp2.1\Netcore.services.csprojAssemblyReference.cache
+D:\Netcore1\Netcore.services\obj\Debug\netcoreapp2.1\Netcore.services.csproj.CoreCompileInputs.cache
+D:\Netcore1\Netcore.services\obj\Debug\netcoreapp2.1\Netcore.services.AssemblyInfoInputs.cache
+D:\Netcore1\Netcore.services\obj\Debug\netcoreapp2.1\Netcore.services.AssemblyInfo.cs
+D:\Netcore1\Netcore.services\obj\Debug\netcoreapp2.1\Netcore.services.csproj.CopyComplete
+D:\Netcore1\Netcore.services\obj\Debug\netcoreapp2.1\Netcore.services.dll
+D:\Netcore1\Netcore.services\obj\Debug\netcoreapp2.1\Netcore.services.pdb

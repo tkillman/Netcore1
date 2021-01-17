@@ -7,3 +7,12 @@ C:\Users\HP\source\repos\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.D
 C:\Users\HP\source\repos\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.AssemblyInfo.cs
 C:\Users\HP\source\repos\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.dll
 C:\Users\HP\source\repos\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.pdb
+D:\Netcore1\Netcore.Data\bin\Debug\netcoreapp2.1\Netcore.Data.deps.json
+D:\Netcore1\Netcore.Data\bin\Debug\netcoreapp2.1\Netcore.Data.dll
+D:\Netcore1\Netcore.Data\bin\Debug\netcoreapp2.1\Netcore.Data.pdb
+D:\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.csprojAssemblyReference.cache
+D:\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.csproj.CoreCompileInputs.cache
+D:\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.AssemblyInfoInputs.cache
+D:\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.AssemblyInfo.cs
+D:\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.dll
+D:\Netcore1\Netcore.Data\obj\Debug\netcoreapp2.1\Netcore.Data.pdb

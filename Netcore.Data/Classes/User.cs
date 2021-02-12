@@ -20,6 +20,8 @@ namespace Netcore.Data.Classes
         [Required, StringLength(130), Column(TypeName = "nvarchar(130)")]
         public string Password { get; set; }
 
+        public int AccessFailedCount { get; set; }
+
         [Required]
         public bool IsMembershipWidthdrawn { get; set; }
 

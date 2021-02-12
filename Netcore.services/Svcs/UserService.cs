@@ -41,17 +41,31 @@ namespace Netcore.services.Svcs
 
         private User GetUserInfo(string userid, string password) {
             User user;
-            user = null;
             //Lambda
             //user = _context.Users.Where(u => u.UserId.Equals(userid) && u.Password.Equals(password)).FirstOrDefault();
 
             //FromSql
 
             //Table
-            user = _context.Users.FromSql("SELECT UserId, UserName, UserEmail, Password, IsMembershipWidthdrawn, JoinedUtcDate FROM dbo.[User]")
-                                             .FirstOrDefault();
+            //user = _context.Users.FromSql("SELECT UserId, UserName, UserEmail, Password, IsMembershipWidthdrawn, JoinedUtcDate FROM dbo.[User]").FirstOrDefault();
+            ////View
+            //user = _context.Users.FromSql("SELECT UserId, UserName, UserEmail, Password, IsMembershipWidthdrawn, JoinedUtcDate FROM dbo.uvwUser")
+            //                    .Where(u => u.UserId.Equals(userid) && u.Password.Equals(password)).FirstOrDefault();
+
+            //Function
+            //user = _context.Users.FromSql($"SELECT UserId, UserName, UserEmail, Password, IsMembershipWidthdrawn, JoinedUtcDate FROM dbo.ufnUser{userid}, {password}")
+            //                    .FirstOrDefault();
+
+            //Stored Procedure
+            // stored Procedure의 인자값은 strling만 가능하다. int count = 1; count.Tostring() 를 인자로 줘야한다.
+            user = _context.Users.FromSql("dbo.uspCheckLoginByUserId @p0, @p1", new [] {userid, password}).FirstOrDefault();
 
 
+            if (user == null) {
+                //int rowAffected = _context.Database.ExecuteSqlCommand($"Update dbo.[User] SET AccessFailedCount += 1 WHERE UserId= {userid}");
+
+                int rowAffected = _context.Database.ExecuteSqlCommand("dbo.FailedLoginByUserId @p0", parameters : new[] { userid });
+            }
             return user;
 
         }

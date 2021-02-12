@@ -34,10 +34,15 @@ namespace NetCore.web.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Login(LoginInfo login)
         {
+            // 종속성
+            // Data => Service => Web
+
             string message = String.Empty;
             if (ModelState.IsValid)
             {
-
+                //string userId = "jadejs";
+                //string password = "123456";
+                
                 //서비스 개념
                 // 서비스의 재사용성, 모듈화
                 if (_user.MatchTheUserInfo(login))

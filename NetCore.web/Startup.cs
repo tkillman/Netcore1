@@ -35,11 +35,14 @@ namespace NetCore.web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            //DB 접속정보, Migrations 프로젝트를 지정
-            services.AddDbContext<CodeFirstDbContext>(options => options.UseSqlServer(connectionString: Configuration.GetConnectionString(name: "DefaultConnection"),
-                    sqlServerOptionsAction: mig => mig.MigrationsAssembly(assemblyName: "Netcore.Migrations")));
+            //DB 접속정보, Migrations 프로젝트를 지정, code-first 방식
+            /*            services.AddDbContext<CodeFirstDbContext>(options => options.UseSqlServer(connectionString: Configuration.GetConnectionString(name: "DefaultConnection"),
+                                sqlServerOptionsAction: mig => mig.MigrationsAssembly(assemblyName: "Netcore.Migrations")));*/
 
+            // DB 접속정보만, db-first 방식
+            services.AddDbContext<DbFirstDbContext>(options => options.UseSqlServer(connectionString:Configuration.GetConnectionString(name:"DBFirstDBConnection")));
 
+            //의존성 주입
             services.AddScoped<IUser, UserService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

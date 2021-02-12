@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1340
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.web", "NetCore.web\NetCore.web.csproj", "{E46163B5-AE32-419E-88BC-3CF332D50B77}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netcore.services", "Netcore
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netcore.Data", "Netcore.Data\Netcore.Data.csproj", "{BA8BA055-6319-47D4-BD66-13BDEE46BF42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netcore.Migrations", "Netcore.Migrations\Netcore.Migrations.csproj", "{36B08C6A-3891-4856-BE30-D2B0A0E81A77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netcore.Migrations", "Netcore.Migrations\Netcore.Migrations.csproj", "{36B08C6A-3891-4856-BE30-D2B0A0E81A77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netcore.Databases", "Netcore.Databases\Netcore.Databases.csproj", "{A33FED29-7A4D-4461-8295-4099CAED45EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{36B08C6A-3891-4856-BE30-D2B0A0E81A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36B08C6A-3891-4856-BE30-D2B0A0E81A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36B08C6A-3891-4856-BE30-D2B0A0E81A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33FED29-7A4D-4461-8295-4099CAED45EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33FED29-7A4D-4461-8295-4099CAED45EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33FED29-7A4D-4461-8295-4099CAED45EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33FED29-7A4D-4461-8295-4099CAED45EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

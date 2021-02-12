@@ -23,14 +23,14 @@ namespace Netcore.Data.DataModels
         public string Password { get; set; }
 
         [Required]
-        public bool IsMembershipWidthdrawn { get; set; }
+        public bool? IsMembershipWidthdrawn { get; set; }
 
         [Required]
         public DateTime JoinedUtcDate { get; set; }
 
         //FK 지정
         [ForeignKey("UserId")]
-         public virtual ICollection<UserRolesByUser> UserRolesByUsers { get; set; }
+        public virtual ICollection<UserRolesByUser> UserRolesByUsers { get; set; }
 
        
     }

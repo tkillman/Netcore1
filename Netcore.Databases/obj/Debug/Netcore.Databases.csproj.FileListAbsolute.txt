@@ -1,0 +1,13 @@
+D:\Netcore1\Netcore.Databases\bin\Debug\Netcore.Databases.dll.config
+D:\Netcore1\Netcore.Databases\bin\Debug\Netcore.Databases.dll
+D:\Netcore1\Netcore.Databases\bin\Debug\Netcore.Databases.pdb
+D:\Netcore1\Netcore.Databases\bin\Debug\EntityFramework.dll
+D:\Netcore1\Netcore.Databases\bin\Debug\EntityFramework.SqlServer.dll
+D:\Netcore1\Netcore.Databases\bin\Debug\EntityFramework.xml
+D:\Netcore1\Netcore.Databases\bin\Debug\EntityFramework.SqlServer.xml
+D:\Netcore1\Netcore.Databases\bin\Debug\ko\EntityFramework.resources.dll
+D:\Netcore1\Netcore.Databases\obj\Debug\Netcore.Databases.csprojAssemblyReference.cache
+D:\Netcore1\Netcore.Databases\obj\Debug\Netcore.Databases.csproj.CoreCompileInputs.cache
+D:\Netcore1\Netcore.Databases\obj\Debug\Netcore.Databases.csproj.CopyComplete
+D:\Netcore1\Netcore.Databases\obj\Debug\Netcore.Databases.dll
+D:\Netcore1\Netcore.Databases\obj\Debug\Netcore.Databases.pdb
